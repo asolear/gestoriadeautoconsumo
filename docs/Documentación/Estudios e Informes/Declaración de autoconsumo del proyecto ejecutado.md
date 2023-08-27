@@ -10,6 +10,7 @@ hide:
 ![](Declaración de autoconsumo del proyecto ejecutado_page_6.png)
 ![](Declaración de autoconsumo del proyecto ejecutado_page_7.png)
 ![](Declaración de autoconsumo del proyecto ejecutado_page_8.png)
+![](Declaración de autoconsumo del proyecto ejecutado_page_9.png)
 
  <style> 
 body {
