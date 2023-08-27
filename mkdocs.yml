@@ -1,0 +1,111 @@
+# desde el codigo# 
+site_name: Gestoría de Autoconsumo
+docs_dir: 'docs'
+copyright: Copyright &copy; 2023 GA (COGITI, Colegiado 26975)  
+dev_addr: 0.0.0.0:8000
+theme:
+  logo:  assets/logo.png
+  favicon: assets/logo.png
+  name: material
+  palette:
+    - scheme: slate
+      primary: blue grey
+      accent: orange
+      # toggle:
+      #   icon: material/toggle-switch-off-outline
+      #   name: Switch to dark mode
+    # - scheme: default
+    #   primary: blue grey
+    #   accent: orange
+    #   toggle:
+    #     icon: material/toggle-switch
+    #     name: Switch to light mode
+  features:
+    - navigation.tabs
+    # - navigation.prune
+    # - navigation.top
+    # - toc.integrate 
+    # - content.code.annotate
+  language: es
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:info@gestoriadeautoconsumo.com?subject=Contacto blog QR&body=Quiero comentarte un tema tecnico ...
+    - icon: fontawesome/solid/phone
+      link: tel:+34 600366211
+  generator: false
+  analytics:
+    provider: google
+    property: G-XXXXXXXXX
+
+  consent:
+    title:  Consentimiento de Cookies
+    description: >- 
+      Utilizamos cookies para reconocer sus visitas repetidas y preferencias, así como
+       como para medir la eficacia de nuestra documentación y si los usuarios
+       encuentran lo que están buscando. Con su consentimiento, nos está ayudando a
+       mejorar nuestra documentación.
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: true
+    actions:
+      - accept
+      - reject      
+  alternate:
+    - name: Espanol
+      link: /
+      lang: es
+    - name: English
+      link: /
+      lang: en
+    - name: Italiano
+      link: /
+      lang: it
+markdown_extensions:
+  - tables
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - md_in_html
+      
+
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+
+plugins:
+  # - git-revision-date          
+  - mkdocstrings
+  - search
+  # pip install mkdocs-macros-plugin
+
+
