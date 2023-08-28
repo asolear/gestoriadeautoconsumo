@@ -1,7 +1,7 @@
 # desde el codigo# 
 site_name: Gestoría de Autoconsumo
 docs_dir: 'docs'
-copyright: Copyright &copy; 2023 GA (COGITI Madrid, Colegiado  26975)  
+copyright: Copyright &copy; 2023 GA (Resp. Colegiado  26975 del COGITI Madrid)  
 dev_addr: 0.0.0.0:8000
 theme:
   logo:  assets/logo.png
