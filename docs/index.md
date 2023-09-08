@@ -28,9 +28,9 @@ La <strong>Gestoría de Autoconsumo</strong> es un espacio de información y ase
 </br>
 </br>
 <div class="collage">
+    <img src="figs/Ubicacion_page_2.png" alt="Imagen 1">
     <img src="figs/Distancia mínima entre filas de módulos_page_2.png" alt="Imagen 2">
     <img src="figs/Distancia mínima entre filas de módulos_page_4.png" alt="Imagen 1">
-    <img src="figs/Contrato_page_3.png" alt="Imagen 1">
     <img src="figs/Declaración de autoconsumo del proyecto ejecutado Anexo_page_4.png" alt="Imagen 2">
 </div>
 </br>
