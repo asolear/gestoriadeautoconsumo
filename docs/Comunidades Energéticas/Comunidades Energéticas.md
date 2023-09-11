@@ -2,10 +2,9 @@
 hide:
 - toc
 ---
-![](index_page_1.png)
-![](index_page_2.png)
-![](index_page_3.png)
-![](index_page_4.png)
+#
+![](Comunidades Energéticas_page_1.png)
+![](Comunidades Energéticas_page_2.png)
 
  <style> 
 body {
