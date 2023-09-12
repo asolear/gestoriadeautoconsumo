@@ -39,7 +39,6 @@ La <strong>Gestoría de Autoconsumo</strong> es un espacio de información y ase
 </br>
 </br>
 </br>
-<span style="font-size: smaller;">[1] Las informaciones personales que aparecen la documentación de muestra son ficticias.</span>
 
 
 <style> 
