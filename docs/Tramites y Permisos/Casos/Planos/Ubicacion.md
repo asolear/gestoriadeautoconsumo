@@ -6,7 +6,6 @@ hide:
 ![](Ubicacion_page_1.png)
 ![](Ubicacion_page_2.png)
 ![](Ubicacion_page_3.png)
-![](Ubicacion_page_4.png)
 
  <style> 
 body {
