@@ -1,4 +1,4 @@
-# desde el codigo# 
+
 site_name: Gestoría de Autoconsumo
 docs_dir: 'docs'
 copyright: Copyright &copy; 2023 GA (Resp. Colegiado  26975 del COGITI Madrid)  
@@ -11,21 +11,8 @@ theme:
     - scheme: slate
       primary: blue grey
       accent: orange
-      # toggle:
-      #   icon: material/toggle-switch-off-outline
-      #   name: Switch to dark mode
-    # - scheme: default
-    #   primary: blue grey
-    #   accent: orange
-    #   toggle:
-    #     icon: material/toggle-switch
-    #     name: Switch to light mode
   features:
     - navigation.tabs
-    # - navigation.prune
-    # - navigation.top
-    # - toc.integrate 
-    # - content.code.annotate
   language: es
 extra:
   social:
@@ -37,7 +24,6 @@ extra:
   analytics:
     provider: google
     property: G-XXXXXXXXX
-
   consent:
     title:  Consentimiento de Cookies
     description: >- 
@@ -62,50 +48,10 @@ extra:
     - name: Italiano
       link: /
       lang: it
-markdown_extensions:
-  - tables
-  - footnotes
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - attr_list
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.arithmatex:
-      generic: true
-
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tabbed:
-      alternate_style: true 
-  - md_in_html
-      
-
-
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-
 plugins:
-  # - git-revision-date          
-  - mkdocstrings
   - search
-  # pip install mkdocs-macros-plugin
+
+
+
 
 
