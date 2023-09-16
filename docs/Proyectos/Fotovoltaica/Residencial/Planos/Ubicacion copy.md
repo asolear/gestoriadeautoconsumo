@@ -3,10 +3,9 @@ hide:
 - toc
 ---
 #
-![](Ubicacion_page_1.png)
-![](Ubicacion_page_2.png)
-![](Ubicacion_page_3.png)
-![](Ubicacion_page_4.png)
+![](Ubicacion copy_page_1.png)
+![](Ubicacion copy_page_2.png)
+![](Ubicacion copy_page_3.png)
 
  <style> 
 body {

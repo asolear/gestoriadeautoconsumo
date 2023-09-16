@@ -3,7 +3,14 @@ hide:
 - toc
 ---
 #
-![](index_page_1.png)
+![](Perdidas_page_1.png)
+![](Perdidas_page_2.png)
+![](Perdidas_page_3.png)
+![](Perdidas_page_4.png)
+![](Perdidas_page_5.png)
+![](Perdidas_page_6.png)
+![](Perdidas_page_7.png)
+![](Perdidas_page_8.png)
 
  <style> 
 body {
