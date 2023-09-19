@@ -4,8 +4,8 @@ docs_dir: 'docs'
 copyright: Copyright &copy; 2023 GA   
 dev_addr: 0.0.0.0:8000
 theme:
-  logo:  assets/logo.png
-  favicon: assets/logo.png
+  logo:  https://github.com/asolear/assets/blob/master/logoGA.png?raw=true
+  favicon: https://github.com/asolear/assets/blob/master/logoGA.png?raw=true
   name: material
   palette:
     - scheme: slate
