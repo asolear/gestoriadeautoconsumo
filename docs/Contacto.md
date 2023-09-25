@@ -52,7 +52,7 @@ hide:
 
 
 <label>Indique su Ubicación</label>
-<div id="map" style="width: 100%; height: 200px;"></div>
+<div id="map" style="width: 100%; height: 800px;"></div>
 
 
 <form action="mailto:info@wattbucket.com?subject=QR " method="post" enctype="text/plain">
@@ -62,6 +62,8 @@ hide:
         placeholder="Ultima Factura de luz (€)"></textarea>
     <br>
     <textarea id="Nombre" name="nombre" placeholder="Nombre"></textarea>
+    <br>
+    <textarea id="rc" name="rc" placeholder="Referencia Catastral"></textarea>
     <br>
     <textarea id="Telefono" name="telefono" placeholder="Telefono"></textarea>
     <br>
